@@ -1,0 +1,140 @@
+.profil-card {
+  background-color: #e1cdcd;
+}
+
+.head, .content {
+
+}
+.profil-image, .name-headline, .about, .link {
+
+}
+
+/*css reset*/
+
+* {
+  margin: 0;
+  Padding: 0;
+  box-sizing: border-box;
+  font-size: 100%;
+}
+
+/* Position */
+
+.profil-card {
+  width: 480px;
+  max-width: calc(100vw - 10px);
+  margin-top: 5%;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.head, .link {
+  text-align: center;
+}
+
+.head, .content {
+width: 90%;
+margin: 0 auto;
+}
+
+img {
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
+}
+
+.profil-image {
+  margin-top: -60px;
+}
+
+/* link Contact */
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  display: inline;
+  filter:grayscale(100%);
+
+}
+
+.head, .about {
+  margin-bottom: 10%;
+}
+
+.content {
+  padding: 5% 10%;
+}
+
+body {
+  background: url('../img/cover5.png');
+  background-size: cover;
+}
+
+.profil-card {
+  background-color: hsla(0, 0%, 100%, .5);
+  border-radius: 4px;
+  box-shadow: hsla(0, 0%, 0%, .8) 10px 10px 80px;
+}
+
+img {
+  padding: 1px;
+  background-color: #666;
+  }
+
+.content {
+  border-top: 1px solid;
+
+}
+
+img:hover {
+  transition: all ease-in-out 0.5s;
+  transform: scale(1.5);
+}
+
+
+
+h2 {
+  font-size: 20px;
+
+}
+
+.name-headline h2 {
+  color:#087e8b;
+
+}
+
+
+h1 {
+  font-size: 40px;
+  font-family: 'Montez', cursive;
+  font-weight: bold;
+  color: #a8c40d;
+
+
+}
+
+h1 span {
+  display: inline-flex;
+}
+
+h1 span:nth-child(even){
+  overflow: hidden;
+  transition:ease-in-out 0.8s;
+  color:#087e8b;
+;
+  letter-spacing:-1em;
+}
+h1:hover span:nth-child(even){
+  letter-spacing:0;
+}
+
+p {
+  font-family: Roboto,cursive;
+}
